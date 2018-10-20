@@ -20,7 +20,7 @@ if __name__ == '__main__':
             os.system("npm run build")
             os.chdir(project_root)
             sys.argv.pop(2)
-        except IndexError:
-            execute_from_command_line(sys.argv)
-        else:
-            execute_from_command_line(sys.argv)
+    except IndexError:
+        execute_from_command_line(sys.argv)
+    else:
+        execute_from_command_line(sys.argv)
