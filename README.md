@@ -23,5 +23,24 @@ $ source environment_name/bin/activate
 $ conda create --name environment_name
 $ activate environment_name
 ```
+### Running Server
+
+- To run frontend app i.e reactjs app
+```
+$ cd frontend
+$ npm start
+```
+- To create a production build
+```
+$ npm run build
+```
+
+- To run django server with frontend
+  - automated the ``` npm run build ``` in manage.py file
+```
+$ python manage.py runserver react
+```
+
+
 
 
