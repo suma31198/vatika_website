@@ -1,5 +1,6 @@
 ## Getting started
-- Install npm
+- Install npm 
+    -npm is a default packet manager for [nodejs](https://nodejs.org/en/download/), so by installing nodejs you get npm 
 - Install reactjs using npm
 ```
 npm install create-react-app
